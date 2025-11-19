@@ -1,0 +1,47 @@
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f2f2f2;
+}
+
+
+.container {
+text-align: center;
+background: white;
+padding: 40px;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+.logo img {
+    width: 120px;      /* adjust size as needed */
+    height: 120px;     /* must be equal to width */
+    object-fit: cover; /* keeps image from stretching */
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;    /* centers the logo */
+}
+
+
+input {
+width: 250px;
+padding: 12px;
+margin: 10px 0;
+border-radius: 8px;
+border: 1px solid #ccc;
+font-size: 16px;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px; /* makes the button curved */
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 15px auto;
+}
